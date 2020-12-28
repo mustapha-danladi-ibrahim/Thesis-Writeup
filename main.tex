@@ -1,0 +1,105 @@
+% -------------------------------------------
+% Authored by Shams Ghazy, June 2020
+% PhD Thesis 
+% -------------------------------------------
+
+% -------------------------------------------
+% [-] DOCUMENT CLASS
+% -------------------------------------------
+
+\documentclass[a4paper,twoside]{report}
+
+% -------------------------------------------
+% [-] PREAMBLE
+% -------------------------------------------
+
+%% packages
+\input{settings/packages}
+\usepackage{kbordermatrix}
+
+%% Chapter title format
+% \titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\Huge}
+
+%% listings custom style settings
+\input{settings/listing_style}
+
+%% page settings
+\input{settings/global_page_settings}
+
+%% table of contents settings
+\input{settings/toc_settings}
+
+%% defined macros and commands
+\input{settings/macros}
+
+%% roman page numbering for front-matter
+\pagenumbering{roman}
+
+% -------------------------------------------
+% [-] START OF THE DOCUMENT
+% -------------------------------------------
+
+\begin{document}
+
+% -------------------------------------------
+% [-] PREFACE PAGES
+% -------------------------------------------
+
+% [-] Title Page
+\input{prefaces/title_page}
+% [-] Abstract
+\input{prefaces/abstract}
+% [-] Acknowledgements
+\input{prefaces/acknowledgements}
+% [-] List of Publications
+\input{prefaces/list_of_publications}
+% [-] Table of Contents
+\newpage
+\tableofcontents
+% [-] List of Figures
+\newpage
+\listoffigures
+% [-] List of Tables
+\newpage
+\listoftables
+% [-] List of Abbreviations
+\input{prefaces/list_of_abbreviations}
+
+
+% -------------------------------------------
+% [-] MAIN BODY
+% -------------------------------------------
+
+%% header and footer settings for the main body
+\input{settings/mainbody_header_and_footer_settings}
+
+% [-] Introduction:
+\input{chapters/chapter1}
+% [-] Literature Review:
+\input{chapters/chapter2}
+% [-] Ontology Development: 
+\input{chapters/chapter3}
+% [-] Ontology Alignment: 
+\input{chapters/chapter4}
+% [-] Ontology Evaluation: 
+\input{chapters/chapter5}
+% [-] Proof of Concept: 
+\input{chapters/chapter6}
+% [-] Conclusions: 
+\input{chapters/chapter7}
+% [-] Conclusions:
+\input{chapters/chapter8}
+% [-] Bibliography:
+\bibliographystyle{apalike}
+\small
+\bibliography{literature/AR2}
+% [-] Appendices:
+\newpage
+\appendix
+\input{appendices/appendix}
+
+% -------------------------------------------
+% [-] END OF THE DOCUMENT
+% -------------------------------------------
+\end{document}
+

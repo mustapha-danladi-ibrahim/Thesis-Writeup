@@ -1,0 +1,31 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Information loss at various stages of the project lifecycle \citep {Borrmann2010}}}{21}{figure.2.1}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces IFC exchange (which relies on end-users modelling expertise) between two BIM software via import-export routines implemented by software developers \citep {Zhang2019}.}}{22}{figure.2.2}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Conceptual layers of the IFC data model. Source: buildingSMART \citep {Liebich2013}.}}{23}{figure.2.3}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Entity relationship diagram showing both the Room (left) and AC (right) Entity types with their respective attributes and instances (below). Instances of the room entity type are indirectly associated with those of AC type via the shared property \emph {Energy Simulation Parameters}. }}{23}{figure.2.4}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces An IfcBoxAlignment data type declaration with a WHERE rule restriction,WRI. The rule specifies that instances of the data type can only be made using values in the WHERE clause. Source: \cite {Pauwels2016}}}{24}{figure.2.5}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces A simple example of the EXPRESS data model textually (\emph {left}) and graphically using EXPRESS-G (\emph {right}). Entity Person is an abstract supertype of entities male and female \emph {shown by the thick connecting lines with a circle at the end denoting the direction of inheritance.} Every occurrence of person has a mandatory name attribute and two optional attributes father and mother \emph {denoted by the continuous non-thick line and the dashed line respectively. } Based on principles from \cite {ISO10303-11.2004}.}}{24}{figure.2.6}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces A Process Map defining the exchange requirements and actor relationships for an energy analysis exchange use case. Source: Concept Design Phase Energy Analysis IDM, developed jointly by GSA (USA), Byggforsk (Norway) and Senatii (Finland) \citep {Borrmann2010}.}}{27}{figure.2.7}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces RDF triples in the form \emph {subject-predicate-object}. The arrows implies directionality of the relationship.}}{30}{figure.2.8}% 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces An example of an RDF graph (combination of triples) describing some information about sensors in a building connected to different air conditioning units and managed by a root server.}}{31}{figure.2.9}% 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces The RDF graph with resources labelled using QNames.}}{32}{figure.2.10}% 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Graphical Representation of \autoref {Rdf:type relationship}}}{33}{figure.2.11}% 
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Property constraints via rdfs:domain and rdfs:range.}}{34}{figure.2.12}% 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces The BOT ontology extending to other domain data sets with inter-dependencies. (Extracted from \cite {Rasmussen2017}. }}{38}{figure.2.13}% 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces \emph {(Left)} Agent Environment Interaction. \emph {(Right)} If $\varepsilon $ = 0.2, this means that for 80\% of the time the agent chooses to take the best known action (1) while trying to maximize immediate reward, and 20\% of the time trying to explore other actions (with equal chance) with the hope of maximizing long term total reward. Based on principles from \cite {Francois-lavet2018}.}}{41}{figure.2.14}% 
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Comparison of biological neural networks with artifical neural networks. This image is by Felipe Perucho and licensed under CC-BY 3.0}}{44}{figure.2.15}% 
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Three sigmoid curves - same inputs, different connection weights and no baises. The output sigmoid function is given by \emph {sig(W\textsubscript {0}*x)} where \emph {x} is the neural input and W\textsubscript {0} is the weight \citep {Kohl}.}}{45}{figure.2.16}% 
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Three sigmoid curves - same inputs, same connection weights and different bais weights. The output sigmoid function is given by \emph {sig(W\textsubscript {0}*x + W\textsubscript {1}*1.0)} where \emph {x} is the neural input, W\textsubscript {0} is the weight and W\textsubscript {1} is the bias weight value. Bias is always 1 \citep {Kohl}.}}{46}{figure.2.17}% 
+\contentsline {figure}{\numberline {2.18}{\ignorespaces \textbf {Left:} A 2-layer neural Network (one hidden layer of 4 neurons and one output layer with 2 neurons), and three inputs. \textbf {Right:} A 3-layer deep neural network with three inputs, two hidden layers of 4 neurons each and one output layer.}}{46}{figure.2.18}% 
+\contentsline {figure}{\numberline {2.19}{\ignorespaces A comparison between Deep Q-learning and normal Q-learning}}{47}{figure.2.19}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Development of ERLO by extending the core ontology BOT with SSN, SOSA, OPM and BPO}}{52}{figure.3.1}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The communication protocol between the SPARQL query and the triple store.}}{56}{figure.3.2}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A comparison between Deep Q-learning and normal Q-learning}}{57}{figure.3.3}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Third order tensor representation of RDF statements}}{59}{figure.3.4}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Incorporation of ERLO into the learning process}}{59}{figure.3.5}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Third order tensor representation of RDF statements}}{60}{figure.3.6}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Schematic diagram of prototype for algorithm validation and testing.}}{61}{figure.3.7}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Methodology Framework}}{65}{figure.3.8}% 
+\addvspace {10\p@ }
